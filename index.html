@@ -4,6 +4,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Kashier</title>
     <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
+    
     <link rel="stylesheet" href="styles.css" />
     <style type="text/tailwindcss">
       @layer utilities {
@@ -24,25 +25,25 @@
     <footer class="bg-[#eee] p-12">
       <form class="new-item-form text-center ">
         <div class="field">
-          <label class="mx-4 my-2.5">Type:</label>
-          <select id="type">
+          <label class="block md:inline">Type:</label>
+          <select id="type" class="mb-2 w-[150px] border-none rounded">
             <option value="receipt">Receipt</option>
             <option value="payment">Payment</option>
           </select>
         </div>
         <div class="field">
-          <label>To / From:</label>
-          <input type="text" id="tofrom"  />
+          <label class="block md:inline">To / From:</label>
+          <input type="text" id="tofrom" class="mb-2 border-none rounded"  />
         </div>
         <div class="field">
-          <label>Details:</label>
-          <input type="text" id="details" />
+          <label class="block md:inline">Details:</label>
+          <input type="text" id="details" class="mb-2 border-none rounded" />
         </div>
         <div class="field">
-          <label>Amount (₦):</label>
-          <input type="number" id="amount" />
+          <label class="block md:inline">Amount (₦):</label>
+          <input type="number" id="amount" class="mb-2 border-none rounded" />
         </div>
-        <button class="add-btn">Add</button>
+        <div class="block"><button class="add-btn">Add</button></div>
       </form>
 
       <a href="https://ollarr.github.io/Dev-Ollar/"></a>

@@ -1,6 +1,10 @@
+  @import url('https://fonts.googleapis.com/css2?family=Lobster+Two&family=Nunito&family=Orbitron:wght@400;600&display=swap');
 body {
   margin: 0;
   font-family: Roboto;
+}
+h1{
+  font-family: "lobster two";
 }
 /* .wrapper {
   max-width: 960px;
@@ -64,13 +68,14 @@ footer a {
 
 .field {
   display: inline-block;
-  /* margin: 0 10px; */
+  margin: 0 16px;
 }
 .add-btn {
   color: white;
   border: 0;
-  background: #0ab5ff;
+  background: #0ab5ff;  
   padding: 6px;
   min-width: 80px;
   border-radius: 4px;
+  margin-top: 24px;
 }
