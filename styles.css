@@ -79,3 +79,7 @@ footer a {
   border-radius: 4px;
   margin-top: 24px;
 }
+
+.add-btn:hover{
+  background:rgb(255, 0, 255) ;
+}
